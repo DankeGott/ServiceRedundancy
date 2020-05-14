@@ -1,0 +1,738 @@
+{
+  "apps": [
+    {
+      "appName": "app-0",
+      "nodes": [
+        {
+          "inputSize": 2.7705,
+          "nodeName": "app-0_node-1",
+          "outputSize": 3.1251,
+          "workload": 1800.0487
+        }
+      ]
+    },
+    {
+      "appName": "app-1",
+      "nodes": [
+        {
+          "inputSize": 3.0258,
+          "nodeName": "app-1_node-1",
+          "outputSize": 2.7,
+          "workload": 1800.0
+        }
+      ]
+    }
+  ],
+  "devices": [
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-0",
+      "height": 60,
+      "name": "device-0-0",
+      "reqGeneratedRate": 9.873,
+      "type": 0,
+      "width": 60,
+      "x": 33,
+      "y": 154
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-1",
+      "height": 60,
+      "name": "device-0-1",
+      "reqGeneratedRate": 9.461,
+      "type": 0,
+      "width": 60,
+      "x": 43,
+      "y": 252
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-0",
+      "height": 60,
+      "name": "device-1-0",
+      "reqGeneratedRate": 10.6684,
+      "type": 0,
+      "width": 60,
+      "x": 149,
+      "y": 608
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-1",
+      "height": 60,
+      "name": "device-1-1",
+      "reqGeneratedRate": 11.0,
+      "type": 0,
+      "width": 60,
+      "x": 233,
+      "y": 607
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-0",
+      "height": 60,
+      "name": "device-2-0",
+      "reqGeneratedRate": 9.0133,
+      "type": 0,
+      "width": 60,
+      "x": 542,
+      "y": 593
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-1",
+      "height": 60,
+      "name": "device-2-1",
+      "reqGeneratedRate": 10.0542,
+      "type": 0,
+      "width": 60,
+      "x": 697,
+      "y": 586
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-0",
+      "height": 60,
+      "name": "device-3-0",
+      "reqGeneratedRate": 9.5663,
+      "type": 0,
+      "width": 60,
+      "x": 745,
+      "y": 181
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-1",
+      "height": 60,
+      "name": "device-3-1",
+      "reqGeneratedRate": 9.0,
+      "type": 0,
+      "width": 60,
+      "x": 746,
+      "y": 266
+    }
+  ],
+  "edges": [
+    {
+      "computingPower": 202000.0,
+      "height": 80,
+      "name": "edge-0",
+      "price": 93.4358,
+      "type": 1,
+      "width": 80,
+      "x": 114,
+      "y": 193
+    },
+    {
+      "computingPower": 201982.2508,
+      "height": 80,
+      "name": "edge-1",
+      "price": 90.0,
+      "type": 1,
+      "width": 80,
+      "x": 176,
+      "y": 500
+    },
+    {
+      "computingPower": 199712.0255,
+      "height": 80,
+      "name": "edge-2",
+      "price": 90.0,
+      "type": 1,
+      "width": 80,
+      "x": 596,
+      "y": 500
+    },
+    {
+      "computingPower": 200860.6748,
+      "height": 80,
+      "name": "edge-3",
+      "price": 110.0,
+      "type": 1,
+      "width": 80,
+      "x": 645,
+      "y": 204
+    },
+    {
+      "computingPower": 2004074.958,
+      "height": 100,
+      "name": "cloud-server",
+      "price": 132.0,
+      "type": 2,
+      "width": 100,
+      "x": 349,
+      "y": 20
+    }
+  ],
+  "links": [
+    {
+      "downLink": 1.0E100,
+      "endEdgeName": "edge-0",
+      "startEdgeName": "edge-0",
+      "upLink": 1.0E100,
+      "x1": 154,
+      "x2": 154,
+      "y1": 233,
+      "y2": 233
+    },
+    {
+      "downLink": 80.074,
+      "endEdgeName": "edge-1",
+      "startEdgeName": "edge-0",
+      "upLink": 80.074,
+      "x1": 154,
+      "x2": 216,
+      "y1": 233,
+      "y2": 540
+    },
+    {
+      "downLink": 80.8,
+      "endEdgeName": "edge-2",
+      "startEdgeName": "edge-0",
+      "upLink": 80.8,
+      "x1": 154,
+      "x2": 636,
+      "y1": 233,
+      "y2": 540
+    },
+    {
+      "downLink": 80.279,
+      "endEdgeName": "edge-3",
+      "startEdgeName": "edge-0",
+      "upLink": 80.279,
+      "x1": 154,
+      "x2": 685,
+      "y1": 233,
+      "y2": 244
+    },
+    {
+      "downLink": 1.0E100,
+      "endEdgeName": "edge-1",
+      "startEdgeName": "edge-1",
+      "upLink": 1.0E100,
+      "x1": 216,
+      "x2": 216,
+      "y1": 540,
+      "y2": 540
+    },
+    {
+      "downLink": 80.1018,
+      "endEdgeName": "edge-2",
+      "startEdgeName": "edge-1",
+      "upLink": 80.1018,
+      "x1": 216,
+      "x2": 636,
+      "y1": 540,
+      "y2": 540
+    },
+    {
+      "downLink": 79.2855,
+      "endEdgeName": "edge-3",
+      "startEdgeName": "edge-1",
+      "upLink": 79.2855,
+      "x1": 216,
+      "x2": 685,
+      "y1": 540,
+      "y2": 244
+    },
+    {
+      "downLink": 1.0E100,
+      "endEdgeName": "edge-2",
+      "startEdgeName": "edge-2",
+      "upLink": 1.0E100,
+      "x1": 636,
+      "x2": 636,
+      "y1": 540,
+      "y2": 540
+    },
+    {
+      "downLink": 79.541,
+      "endEdgeName": "edge-3",
+      "startEdgeName": "edge-2",
+      "upLink": 79.541,
+      "x1": 636,
+      "x2": 685,
+      "y1": 540,
+      "y2": 244
+    },
+    {
+      "downLink": 1.0E100,
+      "endEdgeName": "edge-3",
+      "startEdgeName": "edge-3",
+      "upLink": 1.0E100,
+      "x1": 685,
+      "x2": 685,
+      "y1": 244,
+      "y2": 244
+    },
+    {
+      "downLink": 23.87259,
+      "endEdgeName": "edge-0",
+      "startEdgeName": "cloud-server",
+      "upLink": 23.76,
+      "x1": 399,
+      "x2": 154,
+      "y1": 70,
+      "y2": 233
+    },
+    {
+      "downLink": 23.935080000000003,
+      "endEdgeName": "edge-1",
+      "startEdgeName": "cloud-server",
+      "upLink": 23.84895,
+      "x1": 399,
+      "x2": 216,
+      "y1": 70,
+      "y2": 540
+    },
+    {
+      "downLink": 24.13935,
+      "endEdgeName": "edge-2",
+      "startEdgeName": "cloud-server",
+      "upLink": 24.15246,
+      "x1": 399,
+      "x2": 636,
+      "y1": 70,
+      "y2": 540
+    },
+    {
+      "downLink": 24.030179999999998,
+      "endEdgeName": "edge-3",
+      "startEdgeName": "cloud-server",
+      "upLink": 24.15291,
+      "x1": 399,
+      "x2": 685,
+      "y1": 70,
+      "y2": 244
+    },
+    {
+      "downLink": 1.0E100,
+      "endEdgeName": "cloud-server",
+      "startEdgeName": "cloud-server",
+      "upLink": 1.0E100,
+      "x1": 399,
+      "x2": 399,
+      "y1": 70,
+      "y2": 70
+    }
+  ],
+  "resourceAllocationConfigs": [
+    {
+      "allocComputingPower": 101000.0,
+      "appName": "app-0",
+      "appNodeName": "app-0_node-1",
+      "edgeName": "edge-0"
+    },
+    {
+      "allocComputingPower": 100991.1254,
+      "appName": "app-0",
+      "appNodeName": "app-0_node-1",
+      "edgeName": "edge-1"
+    },
+    {
+      "allocComputingPower": 99856.01275,
+      "appName": "app-0",
+      "appNodeName": "app-0_node-1",
+      "edgeName": "edge-2"
+    },
+    {
+      "allocComputingPower": 100430.3374,
+      "appName": "app-0",
+      "appNodeName": "app-0_node-1",
+      "edgeName": "edge-3"
+    },
+    {
+      "allocComputingPower": 1002037.479,
+      "appName": "app-0",
+      "appNodeName": "app-0_node-1",
+      "edgeName": "cloud-server"
+    },
+    {
+      "allocComputingPower": 101000.0,
+      "appName": "app-1",
+      "appNodeName": "app-1_node-1",
+      "edgeName": "edge-0"
+    },
+    {
+      "allocComputingPower": 100991.1254,
+      "appName": "app-1",
+      "appNodeName": "app-1_node-1",
+      "edgeName": "edge-1"
+    },
+    {
+      "allocComputingPower": 99856.01275,
+      "appName": "app-1",
+      "appNodeName": "app-1_node-1",
+      "edgeName": "edge-2"
+    },
+    {
+      "allocComputingPower": 100430.3374,
+      "appName": "app-1",
+      "appNodeName": "app-1_node-1",
+      "edgeName": "edge-3"
+    },
+    {
+      "allocComputingPower": 1002037.479,
+      "appName": "app-1",
+      "appNodeName": "app-1_node-1",
+      "edgeName": "cloud-server"
+    }
+  ],
+  "schedulingConfigs": [
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-0",
+      "nodeName": "app-0_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-0",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-1",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-2",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-0"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-1"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-2"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "edge-3"
+    },
+    {
+      "accessEdgeName": "edge-3",
+      "appName": "app-1",
+      "nodeName": "app-1_node-1",
+      "probability": 0.2,
+      "targetEdgeName": "cloud-server"
+    }
+  ],
+  "wirelessLinkConfigs": [
+    {
+      "deviceName": "device-0-0",
+      "edgeName": "edge-0",
+      "transmissionRate": 2.2,
+      "x1": 63,
+      "x2": 154,
+      "y1": 184,
+      "y2": 233
+    },
+    {
+      "deviceName": "device-0-1",
+      "edgeName": "edge-0",
+      "transmissionRate": 2.2,
+      "x1": 73,
+      "x2": 154,
+      "y1": 282,
+      "y2": 233
+    },
+    {
+      "deviceName": "device-1-0",
+      "edgeName": "edge-1",
+      "transmissionRate": 1.8,
+      "x1": 179,
+      "x2": 216,
+      "y1": 638,
+      "y2": 540
+    },
+    {
+      "deviceName": "device-1-1",
+      "edgeName": "edge-1",
+      "transmissionRate": 1.8,
+      "x1": 263,
+      "x2": 216,
+      "y1": 637,
+      "y2": 540
+    },
+    {
+      "deviceName": "device-2-0",
+      "edgeName": "edge-2",
+      "transmissionRate": 1.8638,
+      "x1": 572,
+      "x2": 636,
+      "y1": 623,
+      "y2": 540
+    },
+    {
+      "deviceName": "device-2-1",
+      "edgeName": "edge-2",
+      "transmissionRate": 1.8638,
+      "x1": 727,
+      "x2": 636,
+      "y1": 616,
+      "y2": 540
+    },
+    {
+      "deviceName": "device-3-0",
+      "edgeName": "edge-3",
+      "transmissionRate": 1.8691,
+      "x1": 775,
+      "x2": 685,
+      "y1": 211,
+      "y2": 244
+    },
+    {
+      "deviceName": "device-3-1",
+      "edgeName": "edge-3",
+      "transmissionRate": 1.8691,
+      "x1": 776,
+      "x2": 685,
+      "y1": 296,
+      "y2": 244
+    }
+  ]
+}
